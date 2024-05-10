@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Create environment
-source ./../manage_env.sh go
+source ../manage_env.sh go
 
 # Install libraries
 pip install requests &> /dev/null
@@ -10,4 +10,4 @@ pip install requests &> /dev/null
 python ./script.py
 
 # Clean env
-source ./../manage_env.sh
+source ../manage_env.sh

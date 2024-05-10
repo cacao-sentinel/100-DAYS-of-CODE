@@ -11,7 +11,7 @@ else
 fi
 
 # Create environment
-source ./../manage_env.sh go
+source ../manage_env.sh go
 
 # Install libraries
 pip install python-nmap &> /dev/null
@@ -20,4 +20,4 @@ pip install python-nmap &> /dev/null
 python ./script.py
 
 # Clean env
-source ./../manage_env.sh
+source ../manage_env.sh

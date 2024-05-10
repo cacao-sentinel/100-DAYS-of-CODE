@@ -3,7 +3,7 @@
 # Virtual Environment Name
 ENV_NAME="venv"
 
-if ["$1"== "go"];then
+if [ "$1" == "go" ];then
     # Create environment
     echo "Creating and activating virtual environment..."
     python3 -m venv $ENV_NAME
