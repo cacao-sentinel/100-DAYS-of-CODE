@@ -7,6 +7,7 @@ source ../manage_env.sh go
 pip install requests &> /dev/null
 
 # Run Python script
+figlet "Git-Search!"
 python ./script.py
 
 # Clean env
